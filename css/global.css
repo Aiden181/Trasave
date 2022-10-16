@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+body {
+  line-height: 1.5;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  outline: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 8.7rem 0 10rem;
+}
+
+.content-section {
+  margin-bottom: 20rem;
+}
+
+.content-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.title-left:before {
+  content: "";
+  position: absolute;
+  top: -2.6rem;
+  left: 0;
+  height: 0.7rem;
+  width: 14.7rem;
+  background: #49b649;
+}
+
+.title-right:before {
+  content: "";
+  position: absolute;
+  top: -2.6rem;
+  right: 0;
+  height: 0.7rem;
+  width: 14.7rem;
+  background: #49b649;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  font-family: "Nunito", sans-serif;
+  background: #000000;
+}
+
+h1 {
+  font-size: 6.4rem;
+  font-weight: 900;
+  line-height: 1.359375;
+  margin-bottom: 2.8rem;
+}
+
+h2 {
+  font-size: 5.4rem;
+  font-weight: 900;
+  letter-spacing: 4%;
+  color: #ffffff;
+  line-height: 1.3703703704;
+  margin-bottom: 1.4rem;
+  position: relative;
+}
+
+.subtitle {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.375;
+  color: #ffffff;
+}
+
+p {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.375;
+  color: #ffffff;
+}
+
+.footer-title {
+  font-size: 5.6rem;
+  font-weight: 700;
+  line-height: 1.3571428571;
+  margin-bottom: 3.8rem;
+  color: #ffffff;
+}
+
+a {
+  font-family: "Nunito", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 1.3636363636;
+  transition: ease-out color 0.15s;
+}
+a:hover {
+  font-weight: 700;
+  color: #49b649;
+}
+
+.cta {
+  font-family: "Nunito", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1.375;
+  letter-spacing: 4%;
+  padding: 1.5rem 4rem;
+  border-radius: 1rem;
+  transition: ease opacity 0.15s;
+}
+.cta:hover {
+  opacity: 0.6;
+}

@@ -1,0 +1,46 @@
+.container {
+  margin: 0 auto;
+  padding: 0 8.7rem 0 10rem;
+  max-width: 1512px;
+}
+
+.content-section {
+  margin-bottom: 20rem;
+}
+
+.content-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.title-left {
+  &:before {
+    content: "";
+    position: absolute;
+    top: -2.6rem;
+    left: 0;
+    height: 0.7rem;
+    width: 14.7rem;
+    background: $green;
+  }
+}
+
+.title-right {
+  &:before {
+    content: "";
+    position: absolute;
+    top: -2.6rem;
+    right: 0;
+    height: 0.7rem;
+    width: 14.7rem;
+    background: $green;
+  }
+}

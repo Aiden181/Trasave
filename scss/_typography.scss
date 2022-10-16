@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&display=swap");
+
+html,
+body {
+  font-size: 62.5%;
+  font-family: "Nunito", sans-serif;
+  background: $black;
+}
+
+h1 {
+  font-size: 6.4rem;
+  font-weight: 900;
+  line-height: calc(8.7rem / 6.4rem);
+  margin-bottom: 2.8rem;
+}
+
+h2 {
+  font-size: 5.4rem;
+  font-weight: 900;
+  letter-spacing: 4%;
+  color: $white;
+  line-height: calc(7.4rem / 5.4rem);
+  margin-bottom: 1.4rem;
+  position: relative;
+}
+
+.subtitle {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: calc(3.3rem / 2.4rem);
+  color: $white;
+}
+
+p {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: calc(3.3rem / 2.4rem);
+  color: $white;
+}
+
+.footer-title {
+  font-size: 5.6rem;
+  font-weight: 700;
+  line-height: calc(7.6rem / 5.6rem);
+  margin-bottom: 3.8rem;
+  color: $white;
+}
+
+a {
+  font-family: "Nunito", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: calc(3rem / 2.2rem);
+  transition: ease-out color 0.15s;
+
+  &:hover {
+    font-weight: 700;
+    color: $green;
+  }
+}
+
+.cta {
+  font-family: "Nunito", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: $white;
+  line-height: calc(3.3rem / 2.4rem);
+  letter-spacing: 4%;
+  padding: 1.5rem 4rem;
+  border-radius: 1rem;
+  transition: ease opacity 0.15s;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
