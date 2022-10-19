@@ -1,0 +1,48 @@
+.hero {
+  padding-top: 5rem;
+  .container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  &-left {
+    flex: 0 0 50%;
+  }
+
+  &-right {
+    flex: 0 0 50%;
+    position: absolute;
+    top: 0;
+    left: 45%;
+
+    img {
+      width: 85%;
+    }
+  }
+
+  &-background {
+    position: absolute;
+    top: -25%;
+    left: 0;
+    width: 80%;
+  }
+
+  &-subtitle {
+    margin-bottom: 5.5rem;
+  }
+
+  &-cta-list {
+    width: 30rem;
+  }
+
+  &-cta-item {
+    margin-bottom: 2rem;
+  }
+
+  &-stats {
+    position: absolute;
+    left: 30%;
+    z-index: 1;
+  }
+}

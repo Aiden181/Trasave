@@ -64,6 +64,9 @@ a {
   font-family: "Nunito", sans-serif;
   font-size: 2.4rem;
   font-weight: 800;
+  display: inline-block;
+  background: $green;
+  cursor: pointer;
   color: $white;
   line-height: calc(3.3rem / 2.4rem);
   letter-spacing: 4%;

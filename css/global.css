@@ -152,6 +152,9 @@ a:hover {
   font-family: "Nunito", sans-serif;
   font-size: 2.4rem;
   font-weight: 800;
+  display: inline-block;
+  background: #49b649;
+  cursor: pointer;
   color: #ffffff;
   line-height: 1.375;
   letter-spacing: 4%;
@@ -189,4 +192,45 @@ a:hover {
 .nav-item:last-child > a:hover {
   color: #49b649;
   background: #ffffff;
+}
+
+.hero {
+  padding-top: 5rem;
+}
+.hero .container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.hero-left {
+  flex: 0 0 50%;
+}
+.hero-right {
+  flex: 0 0 50%;
+  position: absolute;
+  top: 0;
+  left: 45%;
+}
+.hero-right img {
+  width: 85%;
+}
+.hero-background {
+  position: absolute;
+  top: -25%;
+  left: 0;
+  width: 80%;
+}
+.hero-subtitle {
+  margin-bottom: 5.5rem;
+}
+.hero-cta-list {
+  width: 30rem;
+}
+.hero-cta-item {
+  margin-bottom: 2rem;
+}
+.hero-stats {
+  position: absolute;
+  left: 30%;
+  z-index: 1;
 }
