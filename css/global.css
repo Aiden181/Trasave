@@ -49,6 +49,7 @@ li {
 .container {
   margin: 0 auto;
   padding: 0 8.7rem 0 10rem;
+  max-width: 1512px;
 }
 
 .content-section {
@@ -140,9 +141,10 @@ a {
   font-weight: 600;
   line-height: 1.3636363636;
   transition: ease-out color 0.15s;
+  color: #ffffff;
+  text-decoration: none;
 }
 a:hover {
-  font-weight: 700;
   color: #49b649;
 }
 
@@ -159,4 +161,32 @@ a:hover {
 }
 .cta:hover {
   opacity: 0.6;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-logo {
+  transition: ease 0.15s;
+}
+.nav-logo:hover {
+  opacity: 0.6;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+.nav-item:last-child > a {
+  background: #49b649;
+  border-radius: 1rem;
+  padding: 0.9rem 2.5rem;
+  cursor: pointer;
+  transition: ease 0.15s;
+}
+.nav-item:last-child > a:hover {
+  color: #49b649;
+  background: #ffffff;
 }
