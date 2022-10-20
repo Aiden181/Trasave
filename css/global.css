@@ -144,32 +144,29 @@ a {
   color: #ffffff;
   text-decoration: none;
 }
-a:hover {
-  color: #49b649;
-}
 
 .cta {
-  font-family: "Nunito", sans-serif;
   font-size: 2.4rem;
   font-weight: 800;
   display: inline-block;
   background: #49b649;
   cursor: pointer;
-  color: #ffffff;
   line-height: 1.375;
   letter-spacing: 4%;
   padding: 1.5rem 4rem;
   border-radius: 1rem;
-  transition: ease opacity 0.15s;
+  transition: ease-out 0.15s;
 }
 .cta:hover {
-  opacity: 0.6;
+  background: #ffffff;
+  color: #49b649;
 }
 
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 1;
 }
 .nav-logo {
   transition: ease 0.15s;
@@ -181,6 +178,9 @@ a:hover {
   display: flex;
   align-items: center;
   gap: 4rem;
+}
+.nav-item > a:hover {
+  color: #49b649;
 }
 .nav-item:last-child > a {
   background: #49b649;
@@ -195,42 +195,45 @@ a:hover {
 }
 
 .hero {
-  padding-top: 5rem;
-}
-.hero .container {
   position: relative;
-  display: flex;
-  align-items: center;
-}
-.hero-left {
-  flex: 0 0 50%;
-}
-.hero-right {
-  flex: 0 0 50%;
-  position: absolute;
-  top: 0;
-  left: 45%;
-}
-.hero-right img {
-  width: 85%;
+  padding-top: 7.7rem;
 }
 .hero-background {
   position: absolute;
-  top: -25%;
+  top: 0;
   left: 0;
-  width: 80%;
+  width: 60%;
+  z-index: 0;
+}
+.hero .container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.hero-left {
+  z-index: 2;
+  flex: 0 0 55%;
+}
+.hero-right {
+  z-index: 1;
+  flex: 0 0 45%;
+  position: absolute;
+  top: -5%;
+  right: 0;
+}
+.hero-title > span {
+  color: #49b649;
 }
 .hero-subtitle {
   margin-bottom: 5.5rem;
 }
-.hero-cta-list {
-  width: 30rem;
-}
-.hero-cta-item {
+.hero-cta-item:first-child {
   margin-bottom: 2rem;
+}
+.hero-cta-item:last-child {
+  margin-bottom: 4.5rem;
 }
 .hero-stats {
   position: absolute;
   left: 30%;
-  z-index: 1;
 }

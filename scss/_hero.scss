@@ -1,48 +1,52 @@
 .hero {
-  padding-top: 5rem;
-  .container {
-    position: relative;
-    display: flex;
-    align-items: center;
-  }
-
-  &-left {
-    flex: 0 0 50%;
-  }
-
-  &-right {
-    flex: 0 0 50%;
-    position: absolute;
-    top: 0;
-    left: 45%;
-
-    img {
-      width: 85%;
-    }
-  }
+  position: relative;
+  padding-top: 7.7rem;
 
   &-background {
     position: absolute;
-    top: -25%;
+    top: 0;
     left: 0;
-    width: 80%;
+    width: 60%;
+    z-index: 0;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  &-left {
+    z-index: 2;
+    flex: 0 0 55%;
+  }
+
+  &-right {
+    z-index: 1;
+    flex: 0 0 45%;
+    position: absolute;
+    top: -5%;
+    right: 0;
+  }
+
+  &-title > span {
+    color: $green;
   }
 
   &-subtitle {
     margin-bottom: 5.5rem;
   }
 
-  &-cta-list {
-    width: 30rem;
+  &-cta-item:first-child {
+    margin-bottom: 2rem;
   }
 
-  &-cta-item {
-    margin-bottom: 2rem;
+  &-cta-item:last-child {
+    margin-bottom: 4.5rem;
   }
 
   &-stats {
     position: absolute;
     left: 30%;
-    z-index: 1;
   }
 }

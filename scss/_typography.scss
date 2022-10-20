@@ -54,27 +54,22 @@ a {
   transition: ease-out color 0.15s;
   color: $white;
   text-decoration: none;
-
-  &:hover {
-    color: $green;
-  }
 }
 
 .cta {
-  font-family: "Nunito", sans-serif;
   font-size: 2.4rem;
   font-weight: 800;
   display: inline-block;
   background: $green;
   cursor: pointer;
-  color: $white;
   line-height: calc(3.3rem / 2.4rem);
   letter-spacing: 4%;
   padding: 1.5rem 4rem;
   border-radius: 1rem;
-  transition: ease opacity 0.15s;
+  transition: ease-out 0.15s;
 
   &:hover {
-    opacity: 0.6;
+    background: $white;
+    color: $green;
   }
 }
