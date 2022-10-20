@@ -1,12 +1,11 @@
 <br/>
 <p align="center">
   <a href="https://github.com/Aiden181/Trasave">
-    <img src="images/aiden.png" alt="Logo" width="80" height="80">
+    <img src="images/Aiden.png" alt="Logo" width="80" height="80">
   </a>
 
   <p align="center">
     <a href="https://github.com/Aiden181/Trasave">View Demo</a>
-    .
   </p>
 </p>
 
